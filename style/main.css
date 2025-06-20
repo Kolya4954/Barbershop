@@ -1,0 +1,30 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 p {
+  margin: 0;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid aqua;
+}
+
+body {
+  font-family: Raleway;
+}/*# sourceMappingURL=main.css.map */
