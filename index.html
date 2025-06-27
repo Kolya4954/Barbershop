@@ -3,47 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barbershop</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style/main.min.css">
 </head>
 <body>
     <header class="header">
-           <div class="container">
-               <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item"><a href="" class="header__link">About</a></li>
-                    <li class="header__item"><a href="" class="header__link">Services and prices</a></li>
-                    <li class="header__item"><a href="" class="header__link">Barbers</a></li>
-                    <li class="header__item"><a href="" class="header__link">Contacts</a></li>
-                </ul>
-               </nav>
-               <ul class="header__items">
-                 <li class="header__elem"><a href="tel:+380441111111" class="header__contact">Online-booking</a></li>
-                 <li class="header__elem"><a href="" class="header__contact">Online-booking</a></li>
-               </ul>
-           </div>
-           <a href="./index.html" class="header__logo">
-            <svg class="header__logo">
-                <use href="./images/symbol-defs.svg#icon-Logo-1">
-                
-                </use>
-            </svg>
-           </a>
-           <button class="header__burger" type="button">
-            <svg class="header__burger-icon">
-                <use href="./images/symbol-defs.svg#icon-menu"></use>
-            </svg>
-           </button>
+       <div class="container">
+        <div class="header__wrap">
+        <nav class="header__nav">
+        <ul class="header__list">
+            <li class="header__item"><a href="#" class="header__link">About</a></li>
+            <li class="header__item"><a href="#" class="header__link">Services and prices</a></li>
+            <li class="header__item"><a href="#" class="header__link">Barberss</a></li>
+            <li class="header__item"><a href="#" class="header__link">Contacts</a></li>
+       </ul>
+       </nav>
+        <ul class="header__items">
+            
+             <li class="header__elem"><a href="#" class="header__contact button">Online-booking</a></li>
+        <li class="header__elem"><a href="tel:+380441111111" class="header__contact">+38 044 111 11 11</a></li>
+       
+        </ul>
+        </div>
+        <div class="header__box">
+        <a class="header__logo" href="./index.html">
+<img class="header__logo" src="./images/logo.png" alt="">
+        </a>
+        <button type="button" class="header__burger">
+            <img class="header__menu" src="./images/menu.png" alt="">
+        </button>
+        </div>
+       </div>
     </header>
     <main>
+        <section class="hero">
+            <div class="container">
+                <aside class="hero__aside">
+                    <a href="#"><img src="./images/logo.png" alt="foto"></a>
+                    <ul class="hero__items">
+                        <li class="hero__elem"><a href="#" class="hero__social">Youtube</a></li>
+                        <li class="hero__elem"><a href="#" class="hero__social">Instagram</a></li>
+                    </ul>
+                </aside>
+                <div class="hero__box">
+                    <div>
+                <p class="hero__text">A hair salon for men in Kyiv</p>
+                <h1 class="hero__title">BarberShop</h1>
+                <p class="hero__explanation">We are experts in trendy men’s haircuts.
+                    We work quickly, carefully and with style.</p>
+                </div>
+                    <button class="hero__btn" type="button"><img class="hero__menu" src="./images/menu-lines.png" alt=""></button>
+                </div>
+                    <ul class="hero__list">
+                        <li class="hero__item"><a href="" class="hero__link">Back</a></li>
+                        <li class="hero__item"><a href="" class="hero__link">Forward</a></li>
+                    </ul>
+            </div>
+        </section>
+     <section class="about">
+        <div class="container">
+            <ul class="about__list">
+                <li class="about__item"><img src="./images/about1.png" alt="foto" class="about__img"></li>
+                <li class="about__item"><img src="./images/about2.png" alt="foto" class="about__img"></li>
+            </ul>
+            <div class="about__box">
+        <p class="about__text">About</p>
+        <h2 class="about__title">Best Barbershop in your city</h2>
+        <p class="about__desk">If you want to add more confidence to your image, you should visit us</p>
+        <p class="about__deskription">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
+        <button type="button" class="about__btn">online-booking</button>
+    </div>
+    </div>
+     </section>
+    </main> 
+    <footer>
 
-    </main>
-    <footer class="footer">
-        
     </footer>
 </body>
 </html>

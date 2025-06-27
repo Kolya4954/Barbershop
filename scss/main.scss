@@ -1,4 +1,6 @@
-@import"./base/reset";
-@import"./base/var";
-@import"./base/container";
-@import"./base/common";
+@import "./base/reset";
+@import "./base/var";
+@import "./base/common.scss";
+@import "./base/container";
+@import "./sections/header";
+@import "./sections/hero";
