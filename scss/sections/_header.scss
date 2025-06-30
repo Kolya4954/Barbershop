@@ -1,13 +1,18 @@
 .header{
-    
+  
   &__logo{
     width: 68.93px;
 height: 55.46px;
   }
+
+  &__box{
+    
+  }
+
   &__burger{
     width: 40px;
-    height: 40px;
-    background-color: transparent;
-    border: none;
+height: 40px;
+border: none;
+background-color: transparent;
   }
 }
