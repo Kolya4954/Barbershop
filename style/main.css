@@ -1387,6 +1387,8 @@ body {
   padding-bottom: 44px;
   display: flex;
   justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0;
 }
 .footer__desc {
   color: rgba(157, 164, 189, 0.6);

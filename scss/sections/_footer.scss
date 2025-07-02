@@ -16,7 +16,11 @@
   }
   }
 
-  
+  //  & > .container{
+  //   padding-left: 0;
+  //   padding-right: 0;
+  //  }
+
   &__title{
     color: $title-color;
 text-align: center;
@@ -253,6 +257,8 @@ letter-spacing: 0.36px;
     padding-bottom: 44px;
     display: flex;
     justify-content: space-between;
+     padding-left: 0;
+     padding-right: 0;
   }
   
   &__desc{
