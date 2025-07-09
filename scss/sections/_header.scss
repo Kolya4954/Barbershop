@@ -88,8 +88,8 @@
   &__logo {
     width: 68.93px;
     height: 55.46px;
-    fill: $logo-color-mobile;
-
+    // fill: $logo-color-mobile;
+    fill: red;
     @media screen and (min-width: 720px) {
       fill: $logo-color-tablet-desktop;
     }
